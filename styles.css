@@ -556,8 +556,8 @@ body.animations-disabled * {
   transition: none !important;
 }
 
-body.animations-disabled body::before,
-body.animations-disabled body::after,
+body.animations-disabled::before,
+body.animations-disabled::after,
 body.animations-disabled .card::before {
   animation: none !important;
   opacity: 0.35;
